@@ -1,0 +1,32 @@
+\documentclass[11pt,leqno,final]{amsart}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{etoolbox}
+\usepackage{background}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\SetBgContents{}
+\SetBgColor{gray!50}
+\SetBgAngle{0}
+\SetBgOpacity{1}
+\SetBgScale{1}
+
+\theoremstyle{definition}
+\newtheorem{exec}{Exercício}
+\AtEndEnvironment{exec}{\clearpage}
+
+% Se quiser realizar o exerício x, descomente e substitua.
+% \setcounter{exec}{x-1}
+
+\begin{document}
+\renewcommand{\baselinestretch}{1.4}
+
+\begin{center}
+    \textbf{Capítulo 1}
+\end{center}
+
+\begin{exec}
+\end{exec}
+
+\end{document}
